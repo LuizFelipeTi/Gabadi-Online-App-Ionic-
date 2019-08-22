@@ -20,8 +20,8 @@ export class HomePage {
 	private theCheckerStream: any = false;
 	private orientation: string = 'portrait';
 	private musicControlsClose;
-	private streaming: string = 'linkdaradio';
-	private cover = 'linkdacapa';
+	private streaming: string = 'http://linkdaradio.com';
+	private cover = 'http://linkdacapa.com';
 
 	constructor(private menu: MenuController, 
 		public plt: Platform, 
